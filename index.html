@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chat Assistant</title>
+    <title>L`Oreal Chat Assistant</title>
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Playfair+Display:wght@500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -19,7 +19,13 @@
     <div class="page-wrapper">
       <!------- Header / Branding ------->
       <header class="site-header">
-        <h1 class="site-title">Smart Product Advisor</h1>
+        <img src="img/loreal-logo.png" alt="Loreal logo" />
+        <h1 class="site-title">Welcome to Your Personal Shopping Assistant</h1>
+        <p>
+          Ask any beauty related questions in the chat box below to get
+          personalized product recommendations and routine suggestions tailored
+          to your need!
+        </p>
       </header>
 
       <!------- Chat Area ------->
@@ -49,18 +55,16 @@
 
       <!------- Footer Links ------->
       <footer class="site-footer">
-        <p>&copy; 2025 Company Name. All rights reserved.</p>
+        <p>&copy; 2025 L`Oreal. All rights reserved.</p>
         <nav>
           <!-- These URLs are placeholders -->
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Use</a>
-          <a href="#">Contact</a>
+          <a href="https://www.loreal.com/en/usa/pages/group/privacy-policy-usa/">Privacy Policy</a>
+          <a href="https://www.loreal.com/en/group/global-terms-of-use/">Terms of Use</a>
+          <a href="https://www.loreal.com/en/usa/articles/contact-us/consumer-inquiries-usa/">Contact</a>
         </nav>
       </footer>
     </div>
 
-    <!-- secrets.js can be removed when using Cloudflare Workers for API requests -->
-    <script src="secrets.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
